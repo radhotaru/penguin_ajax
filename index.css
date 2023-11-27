@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+h1{
+    padding: 10px 0 38px;
+    margin-bottom: 2px;
+    box-shadow: 1px 1px 5px 1px #999;}
+main{
+    display: flex;
+    background-image: url(./img/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: space-between;
+}
+/* flex左 */
+aside{
+    background-color: rgb(83, 120, 241);
+    width: 25%;
+    margin: 25px 0;
+    padding: 18px 0 0 26px;
+}
+ul{
+    list-style-image: url(./img/icon.png);
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 13px;
+}
+/* flex右 */
+div{
+    width: 65%;
+    margin: 50px 50px 0 0;
+}
+h2{
+    margin: 0 0 20px;
+}
+img{
+    width: 100%;
+}
+p{
+    margin: 15px 0 ;
+}
+
