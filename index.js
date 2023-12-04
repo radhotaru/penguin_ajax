@@ -18,24 +18,21 @@ $(function(){
         }
     });
     //初期表示
-    getPage("./species1.html");
-    var lastpage = "./species1.html";
-    // 遷移可能であればローディング表示させる
-    $("#loader").show();
-
+    var lastpage = "./species1.php";
     //ページを取得してくる
     function getPage(elm){
         $.ajax({
-            type: 'GET',
             url: elm,
+            cache: false,
             dataType: 'html',
-            success: function(data){
-                $("#loader").fadeOut();
-                $content.html(data).fadeIn(600);
-            },
-            error:function() {
-                alert('問題が発生しました。');
-            }
+        })
+        .done(function(data){
+            $("#div").fadeOut();
+            $content.html(data).fadeIn(600);
+        })
+        .fail(function(jqXHR, textStatus, errorThrown) {
+            // 失敗時の処理
+            alert('Error:', jqXHR, textStatus, errorThrown);
         });
     }
 });

@@ -24,6 +24,9 @@ ul{
     font-weight: bold;
     font-size: 13px;
 }
+a{
+    text-decoration: none;
+}
 /* flex右 */
 div{
     width: 65%;

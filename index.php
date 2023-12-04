@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css"/>
     <link rel="stylesheet" href="./index.css">
     <script src="./jquery.js"></script>
-    <script src="./index.js"></script>
     <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="./index.js"></script>
 </head>
 <body>
     <header>
@@ -20,8 +20,8 @@
         <aside>
             <h3>コウテイペンギン属</h3>
             <ul>
-                <li><a href="./species1.html">コウテイペンギン</a></li>
-                <li><a href="">オウサマペンギン</a></li>
+                <li><a href="./species1.php">コウテイペンギン</a></li>
+                <li><a href="./species2.php">オウサマペンギン</a></li>
             </ul>
             <h3>アデリーペンギン属</h3>
             <ul>
@@ -55,13 +55,14 @@
                 <li><a href="">ハネジロペンギン</a></li>
             </ul>
         </aside>
-        <div id="div"> 
-            </div>
-            <div id="loader-bg">
-            <div id="loader"><img src="loader.gif" width="16" height="16"></div>
-            </div>
+        <div id="div">
+            <h2>コウテイペンギン</h2>
+            <img src="./img/penguin01.jpg" alt="">
+            <p>コウテイペンギンは南極大陸にのみ生息するペンギンで、体長100～130㎝、体重20～45kgになる現存するペンギンの中で世界最大のペンギンです。<br>
+                雛鳥はよくアニメなどのキャラクターに使用されることが多く、人気が高いので比較的に日本ではなじみ深い印象ですが、日本では愛知県の名古屋港水族館と和歌山県の南紀白浜アドベンチャーワールドの2か所でしか飼育されておらず、繁殖に成功しているのはアドベンチャーワールドのみです。
+                繁殖期は冬で海から離れた内陸部で集団で繁殖します。また、泳ぎに関しては鳥類の中では最も潜水能力が高く、水深500m以上の深海にも潜ることができます。
+                餌はオキアミや小魚などを主食とし、天敵はシャチやヒョウアザラシ、オオフルマカモメなどがいます。</p>
         </div>
     </main>
-
 </body>
 </html>
