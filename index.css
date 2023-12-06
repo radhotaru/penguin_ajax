@@ -21,7 +21,6 @@ aside{
 ul{
     list-style-image: url(./img/icon.png);
     margin-top: 0;
-    font-weight: bold;
     font-size: 13px;
 }
 a{
@@ -29,8 +28,8 @@ a{
 }
 /* flex右 */
 div{
-    width: 65%;
-    margin: 50px 50px 0 0;
+    width: 70%;
+    margin: 50px auto;
 }
 h2{
     margin: 0 0 20px;
@@ -40,5 +39,6 @@ img{
 }
 p{
     margin: 15px 0 ;
+    font-size: 20px;
 }
 
